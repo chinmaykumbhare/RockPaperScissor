@@ -51,9 +51,9 @@ function finalMessage([humanScore, computerScore]) {
 
 function rpsFrontEnd(humanChoice, botChoice, finalMessage) {
     var ImageDatabase = {
-        "rock": "http://localhost:63342/RockPaperScissor/Resources/rock.jpg",
-        "paper": "http://localhost:63342/RockPaperScissor/Resources/paper.jpg",
-        "scissor": "http://localhost:63342/RockPaperScissor/Resources/scissor.jpg",
+        "rock": "https://chinmaykumbhare.github.io/RockPaperScissor/Resources/rock.jpg",
+        "paper": "https://chinmaykumbhare.github.io/RockPaperScissor/Resources/paper.jpg",
+        "scissor": "https://chinmaykumbhare.github.io/RockPaperScissor/Resources/scissor.jpg",
     }
 
     document.getElementById("rock").remove();
