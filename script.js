@@ -63,17 +63,14 @@ function rpsFrontEnd(humanChoice, botChoice, finalMessage) {
     //human
     if (humanChoice === "rock") {
         const rock = document.createElement("img");
-        //rock.src = "http://localhost:63342/RockPaperScissor/Resources/paper.jpg";
         rock.src = ImageDatabase["rock"];
         document.querySelector(".flex-box-rps").appendChild(rock);
     } else if (humanChoice === "scissor") {
         const scissor = document.createElement("img");
-        //rock.src = "http://localhost:63342/RockPaperScissor/Resources/paper.jpg";
         scissor.src = ImageDatabase["scissor"];
         document.querySelector(".flex-box-rps").appendChild(scissor);
     } else {
         const paper = document.createElement("img");
-        //paper.src = "http://localhost:63342/RockPaperScissor/Resources/paper.jpg";
         paper.src = ImageDatabase["paper"];
         document.querySelector(".flex-box-rps").appendChild(paper);
     }
@@ -86,17 +83,14 @@ function rpsFrontEnd(humanChoice, botChoice, finalMessage) {
     //bot
     if (botChoice === "rock") {
         const rock = document.createElement("img");
-        //rock.src = "http://localhost:63342/RockPaperScissor/Resources/paper.jpg";
         rock.src = ImageDatabase["rock"];
         document.querySelector(".flex-box-rps").appendChild(rock);
     } else if (botChoice === "scissor") {
         const scissor = document.createElement("img");
-        //rock.src = "http://localhost:63342/RockPaperScissor/Resources/paper.jpg";
         scissor.src = ImageDatabase["scissor"];
         document.querySelector(".flex-box-rps").appendChild(scissor);
     } else {
         const paper = document.createElement("img");
-        //paper.src = "http://localhost:63342/RockPaperScissor/Resources/paper.jpg";
         paper.src = ImageDatabase["paper"];
         document.querySelector(".flex-box-rps").appendChild(paper);
     }
